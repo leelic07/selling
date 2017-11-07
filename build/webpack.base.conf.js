@@ -41,10 +41,12 @@ module.exports = {
       {
         test: /\.css$/,
         loader: 'css-loader!style-loader',
+        include: [resolve('src'), resolve('test')]
       },
       {
         test:/\.stylus$/,
-        loader:'stylus-loader'
+        loader:'stylus-loader',
+        include: [resolve('src'), resolve('test')]
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,

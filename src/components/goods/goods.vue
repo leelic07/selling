@@ -1,6 +1,6 @@
 <template>
-  <div id="header">
-    I am header
+  <div>
+    I am goods
   </div>
 </template>
 
@@ -14,6 +14,6 @@
     }
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
+<style type="text/stylus" lang="stylus">
 
 </style>

@@ -1,19 +1,17 @@
 <template>
-  <div id="header">
-    I am header
+  <div>
+    I am seller
   </div>
 </template>
 
 <script type="text/ecmascript-6">
     export default {
         data() {
-            return {
-
-            }
+            return {}
         }
     }
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
+<style type="text/stylus" lang="stylus">
 
 </style>
